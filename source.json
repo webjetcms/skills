@@ -1,0 +1,30 @@
+{
+  "sourceRepository": "https://github.com/webjetcms/webjetcms",
+  "sourceCommit": "1446415ccf1571e7019f4327bb53c016c537f481",
+  "contentHash": "f02c5848f8d69ef7eeeec709e7684029417ca06c84be9ef1b50ebbbd2f1f74af",
+  "skills": [
+    "wj-accessibility",
+    "wj-add-javadoc",
+    "wj-add-jsdoc",
+    "wj-add-junit-comments",
+    "wj-anti-slop",
+    "wj-appstore-app",
+    "wj-code-review",
+    "wj-codeceptjs",
+    "wj-codeceptjs-check",
+    "wj-confirm-issue",
+    "wj-content-marketing",
+    "wj-create-feature-video",
+    "wj-dashboard-widget",
+    "wj-datatable",
+    "wj-dependencycheck",
+    "wj-docs-pr",
+    "wj-gh-issue-from-chat",
+    "wj-page-builder",
+    "wj-project-context",
+    "wj-sales-features",
+    "wj-setup",
+    "wj-simplify-implementation",
+    "wj-translate-comments"
+  ]
+}
