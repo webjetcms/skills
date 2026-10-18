@@ -11,7 +11,7 @@ These commands and paths describe the core checkout. For a customer project, ins
 3. Locate the current implementation and its callers, configuration, translations and tests. Treat prose and old comments as guidance to verify against code.
 4. Make the smallest complete change, run the relevant checks, and report the result and any verification gaps.
 
-In WebJET core, agents must not create Git commits on any branch. Leave changes uncommitted for the user. Follow the existing feature/hotfix branch; create a separate branch only when needed for the task. Root `AGENTS.md` uses `feature/<id>-<description>` and `hotfix/<id>-<description>`. The repository's [contribution guide](https://github.com/webjetcms/webjetcms/blob/1446415ccf1571e7019f4327bb53c016c537f481/CONTRIBUTING.md) describes PR targets: features target `main`, hotfixes target their corresponding `hotfix/YEAR.0-main` branch. Do not rebase, merge or publish as a routine documentation or coding step.
+In WebJET core, agents must not create Git commits on any branch. Leave changes uncommitted for the user. Follow the existing feature/hotfix branch; create a separate branch only when needed for the task. Root `AGENTS.md` uses `feature/<id>-<description>` and `hotfix/<id>-<description>`. The repository's [contribution guide](https://github.com/webjetcms/webjetcms/blob/af3cf8e509e27da9eeb1ecabef2e2ccd29ee4dd6/CONTRIBUTING.md) describes PR targets: features target `main`, hotfixes target their corresponding `hotfix/YEAR.0-main` branch. Do not rebase, merge or publish as a routine documentation or coding step.
 
 ## Build and run the core
 
@@ -33,7 +33,7 @@ Run from the core repository root unless a directory is specified:
 | Stop this checkout's server | `./gradlew appStop` |
 | Package the standard client WAR | `./gradlew war` |
 
-The startup example uses POSIX environment syntax. Windows task variants are in `.vscode/tasks.json`. Gretty defaults to HTTP 80, HTTPS 443 and debugger 5005; use `-PhttpPort=8080 -PhttpsPort=8443 -PdebugPort=5006` for another local instance. Match the URL and hostname to the chosen profile and local domain setup. See [installation](https://github.com/webjetcms/webjetcms/blob/1446415ccf1571e7019f4327bb53c016c537f481/docs/sk/developer/install/README.md), but use current build files when old documentation examples disagree.
+The startup example uses POSIX environment syntax. Windows task variants are in `.vscode/tasks.json`. Gretty defaults to HTTP 80, HTTPS 443 and debugger 5005; use `-PhttpPort=8080 -PhttpsPort=8443 -PdebugPort=5006` for another local instance. Match the URL and hostname to the chosen profile and local domain setup. See [installation](https://github.com/webjetcms/webjetcms/blob/af3cf8e509e27da9eeb1ecabef2e2ccd29ee4dd6/docs/sk/developer/install/README.md), but use current build files when old documentation examples disagree.
 
 ## Java tests
 
@@ -77,6 +77,8 @@ node .github/scripts/export-skills.mjs --output /tmp/webjet-skills-review
 Choose a new output directory; the exporter refuses an existing destination. It reads working-tree contents of Git-tracked files, validates metadata and Markdown links, and produces `source.json` plus the distribution. Newly created files must be tracked to be included. No publishing is needed to validate the export.
 
 The exporter rewrites relative links to bundled references and tracked core files. Keep links relative in the maintained source; use code-formatted core paths for locations that may not exist in customer checkouts. Do not edit generated reference copies.
+
+To keep a skill only in the core repository, add its exact directory name to `.github/skills-distribution/excluded-skills.txt`, one name per line. Blank lines and lines starting with `#` are ignored; glob patterns and unknown skill names are rejected. The exporter omits the entire skill directory and its manifest entry. Required skills `wj-project-context` and `wj-setup` cannot be excluded. The existing workflow watches this file and removes previously published excluded skills during synchronization.
 
 ## Documentation and completion
 

@@ -1,6 +1,6 @@
 # Dashboard design decisions
 
-These maintained notes explain the current dashboard design. Read them before changing shared behavior; use the [widget contract](widget-contract.md) for interfaces and the [user guide](https://github.com/webjetcms/webjetcms/blob/1446415ccf1571e7019f4327bb53c016c537f481/docs/sk/redactor/admin/welcome.md) for user-facing behavior. Revisit the affected decision when the implementation changes.
+These maintained notes explain the current dashboard design. Read them before changing shared behavior; use the [widget contract](widget-contract.md) for interfaces and the [user guide](https://github.com/webjetcms/webjetcms/blob/af3cf8e509e27da9eeb1ecabef2e2ccd29ee4dd6/docs/sk/redactor/admin/welcome.md) for user-facing behavior. Revisit the affected decision when the implementation changes.
 
 ## Keep essential information available during personalization
 
@@ -32,4 +32,4 @@ Forms include today's submissions because those are immediately actionable. Anal
 
 The dashboard retains the administration shell, Asap typography, Tabler icons and shared color tokens. Runtime CSS properties connect card and chart colors to the same palette. Detailed styling belongs in the module SCSS rather than copied prototype dimensions.
 
-The environment label identifies the server used for administration. Deriving it from the request server name keeps it stable when the user switches content domains. Administrators can override its text, icon, color and header image through [configuration](https://github.com/webjetcms/webjetcms/blob/1446415ccf1571e7019f4327bb53c016c537f481/docs/sk/admin/setup/configuration/dashboard.md).
+The environment label identifies the server used for administration. Deriving it from the request server name keeps it stable when the user switches content domains. Administrators can override its text, icon, color and header image through [configuration](https://github.com/webjetcms/webjetcms/blob/af3cf8e509e27da9eeb1ecabef2e2ccd29ee4dd6/docs/sk/admin/setup/configuration/dashboard.md).

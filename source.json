@@ -1,7 +1,7 @@
 {
   "sourceRepository": "https://github.com/webjetcms/webjetcms",
-  "sourceCommit": "1446415ccf1571e7019f4327bb53c016c537f481",
-  "contentHash": "f02c5848f8d69ef7eeeec709e7684029417ca06c84be9ef1b50ebbbd2f1f74af",
+  "sourceCommit": "af3cf8e509e27da9eeb1ecabef2e2ccd29ee4dd6",
+  "contentHash": "9c0975ae33d7915370816cc42aef9fe18ed4674fec8b6ec774bfaf7a30b208d5",
   "skills": [
     "wj-accessibility",
     "wj-add-javadoc",
@@ -25,6 +25,8 @@
     "wj-sales-features",
     "wj-setup",
     "wj-simplify-implementation",
-    "wj-translate-comments"
+    "wj-stylescombo",
+    "wj-translate-comments",
+    "wj-ui-review"
   ]
 }
