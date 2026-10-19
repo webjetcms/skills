@@ -1,10 +1,10 @@
 # Dashboard design decisions
 
-These maintained notes explain the current dashboard design. Read them before changing shared behavior; use the [widget contract](widget-contract.md) for interfaces and the [user guide](https://github.com/webjetcms/webjetcms/blob/af3cf8e509e27da9eeb1ecabef2e2ccd29ee4dd6/docs/sk/redactor/admin/welcome.md) for user-facing behavior. Revisit the affected decision when the implementation changes.
+These maintained notes explain the current dashboard design. Read them before changing shared behavior; use the [widget contract](widget-contract.md) for interfaces and the [user guide](https://github.com/webjetcms/webjetcms/blob/ad2a50415feb090494cb3ed888ea944ba3cd1135/docs/sk/redactor/admin/welcome.md) for user-facing behavior. Revisit the affected decision when the implementation changes.
 
 ## Keep essential information available during personalization
 
-Users have mixed responsibilities, so widget availability follows permissions rather than predefined job roles. Session management and unresolved system notices remain outside the personal grid: removing or rearranging content must not hide security information. News occupies the right side of the welcome panel. It cycles through release highlights and expands across the hero for reading without rebuilding the welcome or shortcuts. The New badge lasts thirty days from each account’s first encounter with the localized text, so late sign-ins still see updates; a content fingerprint detects edits within the same release. Shortcuts have their own editing and reset controls because changing the dashboard's reports should preserve navigation choices.
+Users have mixed responsibilities, so widget availability follows permissions rather than predefined job roles. Session management and unresolved system notices remain outside the personal grid: removing or rearranging content must not hide security information. News occupies the right side of the welcome panel. It cycles through release highlights and expands across the hero for reading without rebuilding the welcome or shortcuts. The New badge represents unread content until the account expands the panel. A content fingerprint detects edits within the same release; stable social IDs detect new external posts. Confirmed acknowledgements persist per account without a time limit; merely rendering a preview or opening Help does not acknowledge content. Shortcuts have their own editing and reset controls because changing the dashboard's reports should preserve navigation choices.
 
 ## Preserve a portable personal layout
 
@@ -32,4 +32,4 @@ Forms include today's submissions because those are immediately actionable. Anal
 
 The dashboard retains the administration shell, Asap typography, Tabler icons and shared color tokens. Runtime CSS properties connect card and chart colors to the same palette. Detailed styling belongs in the module SCSS rather than copied prototype dimensions.
 
-The environment label identifies the server used for administration. Deriving it from the request server name keeps it stable when the user switches content domains. Administrators can override its text, icon, color and header image through [configuration](https://github.com/webjetcms/webjetcms/blob/af3cf8e509e27da9eeb1ecabef2e2ccd29ee4dd6/docs/sk/admin/setup/configuration/dashboard.md).
+The environment label identifies the server used for administration. Deriving it from the request server name keeps it stable when the user switches content domains. Administrators can override its text, icon, color and header image through [configuration](https://github.com/webjetcms/webjetcms/blob/ad2a50415feb090494cb3ed888ea944ba3cd1135/docs/sk/admin/setup/configuration/dashboard.md).
