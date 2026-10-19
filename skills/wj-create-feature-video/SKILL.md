@@ -14,7 +14,7 @@ Before creating executable scenarios, inspect the target project's video npm scr
 Read [references/production-reference.md](references/production-reference.md)
 before implementing or changing a video scenario. It contains the exact schema,
 scenario template, recording defaults and validation commands. Use
-[308-pb-redesign.js](https://github.com/webjetcms/webjetcms/blob/ad2a50415feb090494cb3ed888ea944ba3cd1135/src/test/webapp/video/308-pb-redesign.js) as the
+[308-pb-redesign.js](https://github.com/webjetcms/webjetcms/blob/43b4c71d8cae0a8247b6ece2c4129b8ae30ba389/src/test/webapp/video/308-pb-redesign.js) as the
 working example of the current architecture; adapt its application-specific
 selectors, fixture and lifecycle callbacks to the feature being demonstrated.
 
