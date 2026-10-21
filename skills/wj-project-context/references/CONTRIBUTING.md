@@ -11,7 +11,7 @@ These commands and paths describe the core checkout. For a customer project, ins
 3. Locate the current implementation and its callers, configuration, translations and tests. Treat prose and old comments as guidance to verify against code.
 4. Make the smallest complete change, run the relevant checks, and report the result and any verification gaps.
 
-In WebJET core, agents must not create Git commits on any branch. Leave changes uncommitted for the user. Follow the existing feature/hotfix branch; create a separate branch only when needed for the task. Root `AGENTS.md` uses `feature/<id>-<description>` and `hotfix/<id>-<description>`. The repository's [contribution guide](https://github.com/webjetcms/webjetcms/blob/f2b24547297912c44f8d898cb60a79b1039ce7de/CONTRIBUTING.md) describes PR targets: features target `main`, hotfixes target their corresponding `hotfix/YEAR.0-main` branch. Do not rebase, merge or publish as a routine documentation or coding step.
+In WebJET core, agents must not create Git commits on any branch. Leave changes uncommitted for the user. Follow the existing feature/hotfix branch; create a separate branch only when needed for the task. Root `AGENTS.md` uses `feature/<id>-<description>` and `hotfix/<id>-<description>`. The repository's [contribution guide](https://github.com/webjetcms/webjetcms/blob/3cce1ba35b678624d920dd507846f8ae761c04d8/CONTRIBUTING.md) describes PR targets: features target `main`, hotfixes target their corresponding `hotfix/YEAR.0-main` branch. Do not rebase, merge or publish as a routine documentation or coding step.
 
 ## Build and run the core
 
@@ -33,7 +33,7 @@ Run from the core repository root unless a directory is specified:
 | Stop this checkout's server | `./gradlew appStop` |
 | Package the standard client WAR | `./gradlew war` |
 
-The startup example uses POSIX environment syntax. Windows task variants are in `.vscode/tasks.json`. Gretty defaults to HTTP 80, HTTPS 443 and debugger 5005; use `-PhttpPort=8080 -PhttpsPort=8443 -PdebugPort=5006` for another local instance. Match the URL and hostname to the chosen profile and local domain setup. See [installation](https://github.com/webjetcms/webjetcms/blob/f2b24547297912c44f8d898cb60a79b1039ce7de/docs/sk/developer/install/README.md), but use current build files when old documentation examples disagree.
+The startup example uses POSIX environment syntax. Windows task variants are in `.vscode/tasks.json`. Gretty defaults to HTTP 80, HTTPS 443 and debugger 5005; use `-PhttpPort=8080 -PhttpsPort=8443 -PdebugPort=5006` for another local instance. Match the URL and hostname to the chosen profile and local domain setup. See [installation](https://github.com/webjetcms/webjetcms/blob/3cce1ba35b678624d920dd507846f8ae761c04d8/docs/sk/developer/install/README.md), but use current build files when old documentation examples disagree.
 
 ## Java tests
 

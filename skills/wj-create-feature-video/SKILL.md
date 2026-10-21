@@ -14,7 +14,7 @@ Before creating executable scenarios, inspect the target project's video npm scr
 Read [references/production-reference.md](references/production-reference.md)
 before implementing or changing a video scenario. It contains the exact schema,
 scenario template, recording defaults and validation commands. Use
-[308-pb-redesign.js](https://github.com/webjetcms/webjetcms/blob/f2b24547297912c44f8d898cb60a79b1039ce7de/src/test/webapp/video/308-pb-redesign.js) as the
+[308-pb-redesign.js](https://github.com/webjetcms/webjetcms/blob/3cce1ba35b678624d920dd507846f8ae761c04d8/src/test/webapp/video/308-pb-redesign.js) as the
 working example of the current architecture; adapt its application-specific
 selectors, fixture and lifecycle callbacks to the feature being demonstrated.
 
@@ -397,6 +397,10 @@ skill and read [references/tesseract-editing.md](references/tesseract-editing.md
 Keep the approved narration as the timing anchor, preserve continuous topic
 flows, and use purposeful zooms on the controls being explained. Omit numbered
 chapter-title overlays unless explicitly requested.
+
+Include the opening AI disclosure in every finished video, following the
+wording, placement, timing and readability checks in the reference's
+[AI Disclosure](references/tesseract-editing.md#ai-disclosure) section.
 
 Always finish the complete WebJET feature video with the supplied animation in
 `src/test/webapp/video/assets/outro.mp4`, unless the user requests a different
