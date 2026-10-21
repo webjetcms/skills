@@ -75,9 +75,9 @@ section
   substitution, or template hooks, read
   [library-and-runtime.md](references/library-and-runtime.md).
 - Canonical local documentation:
-  [overview](https://github.com/webjetcms/webjetcms/blob/43b4c71d8cae0a8247b6ece2c4129b8ae30ba389/docs/sk/frontend/page-builder/README.md),
-  [blocks](https://github.com/webjetcms/webjetcms/blob/43b4c71d8cae0a8247b6ece2c4129b8ae30ba389/docs/sk/frontend/page-builder/blocks.md), and
-  [settings](https://github.com/webjetcms/webjetcms/blob/43b4c71d8cae0a8247b6ece2c4129b8ae30ba389/docs/sk/frontend/page-builder/settings.md).
+  [overview](https://github.com/webjetcms/webjetcms/blob/f2b24547297912c44f8d898cb60a79b1039ce7de/docs/sk/frontend/page-builder/README.md),
+  [blocks](https://github.com/webjetcms/webjetcms/blob/f2b24547297912c44f8d898cb60a79b1039ce7de/docs/sk/frontend/page-builder/blocks.md), and
+  [settings](https://github.com/webjetcms/webjetcms/blob/f2b24547297912c44f8d898cb60a79b1039ce7de/docs/sk/frontend/page-builder/settings.md).
   All source paths in the references are relative to the repository root.
   Recheck the relevant documentation and implementation if the target overrides
   the defaults or behavior is unclear; do not copy an inconsistent example blindly.
