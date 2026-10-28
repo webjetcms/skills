@@ -1,7 +1,7 @@
 {
   "sourceRepository": "https://github.com/webjetcms/webjetcms",
-  "sourceCommit": "3cce1ba35b678624d920dd507846f8ae761c04d8",
-  "contentHash": "332037496900e7a78b8b36a4ce699fd01cf3c995b2b17e132063b5aa80eb746e",
+  "sourceCommit": "9e50a72100f97998e809393b84bf33de70b6b98c",
+  "contentHash": "fc7533b30a10e34d2a6268e6e853b8287571cdf31841b8867185100fd34ec6d2",
   "skills": [
     "wj-accessibility",
     "wj-add-javadoc",
