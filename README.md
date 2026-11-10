@@ -101,10 +101,10 @@ To remove the integration, use `npx skills remove` for the selected WebJET skill
 
 ## Skill catalog
 
-The following catalog and example prompts come from the English [WebJET usage guide](https://github.com/webjetcms/webjetcms/blob/5b1507251bdb94e870b4b25a69f3b71712b55f19/docs/en/developer/guidelines/ai-skills.md#webjet-skills-overview). Copy a prompt into your agent's chat and replace the bracketed placeholders. Skill names link to their full instructions and prerequisites. Only skills included in this distribution are listed.
+The following catalog and example prompts come from the English [WebJET usage guide](https://github.com/webjetcms/webjetcms/blob/4588dbc7965fe08bcb231e1d1c9125a9f08865c8/docs/en/developer/guidelines/ai-skills.md#webjet-skills-overview). Copy a prompt into your agent's chat and replace the bracketed placeholders. Skill names link to their full instructions and prerequisites. Only skills included in this distribution are listed.
 
 <!-- webjet-skills-catalog:start -->
-| Skill | What is it for and when to use it? | Example of chat entry |
+| Skill | What is it for and when to use it? | Example of entry into the chat |
 | --- | --- | --- |
 | [`wj-accessibility`](skills/wj-accessibility/SKILL.md) | Checks and improves web accessibility according to WCAG 2.2, such as keyboard controls, element descriptions, and screen reader support. | Use the wj-accessibility skill to check the accessibility of the form [URL]. |
 | [`wj-add-javadoc`](skills/wj-add-javadoc/SKILL.md) | It adds and corrects the English JavaDoc of classes and methods, including parameters, return values, and exceptions. It only changes comments. | Use the skill wj-add-javadoc for class [path to Java file]. |
