@@ -75,9 +75,9 @@ section
   substitution, or template hooks, read
   [library-and-runtime.md](references/library-and-runtime.md).
 - Canonical local documentation:
-  [overview](https://github.com/webjetcms/webjetcms/blob/4588dbc7965fe08bcb231e1d1c9125a9f08865c8/docs/sk/frontend/page-builder/README.md),
-  [blocks](https://github.com/webjetcms/webjetcms/blob/4588dbc7965fe08bcb231e1d1c9125a9f08865c8/docs/sk/frontend/page-builder/blocks.md), and
-  [settings](https://github.com/webjetcms/webjetcms/blob/4588dbc7965fe08bcb231e1d1c9125a9f08865c8/docs/sk/frontend/page-builder/settings.md).
+  [overview](https://github.com/webjetcms/webjetcms/blob/26784403fccbe870783ec4577fdd0d8933c4b4a3/docs/sk/frontend/page-builder/README.md),
+  [blocks](https://github.com/webjetcms/webjetcms/blob/26784403fccbe870783ec4577fdd0d8933c4b4a3/docs/sk/frontend/page-builder/blocks.md), and
+  [settings](https://github.com/webjetcms/webjetcms/blob/26784403fccbe870783ec4577fdd0d8933c4b4a3/docs/sk/frontend/page-builder/settings.md).
   All source paths in the references are relative to the repository root.
   Recheck the relevant documentation and implementation if the target overrides
   the defaults or behavior is unclear; do not copy an inconsistent example blindly.
