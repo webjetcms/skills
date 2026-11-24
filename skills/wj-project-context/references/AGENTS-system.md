@@ -50,7 +50,7 @@ Paths below refer to the current core checkout. In customer projects, verify the
 ## Criteria Membership Lists
 
 - Use `JpaTools.in(field, values, builder)` / `notIn` for unbounded Criteria collections; these share `DB.getInClauseMaxItems()` with SQL helpers. Keep caller guards when empty input means omitting a filter.
-- Bound repository collection parameters follow a different EclipseLink path; see the [SQL membership audit](https://github.com/webjetcms/webjetcms/blob/26784403fccbe870783ec4577fdd0d8933c4b4a3/docs/en/developer/backend/sql-in-condition-audit.md#orm-findings-criteria-literals-differ-from-bound-collection-parameters) before changing those queries.
+- Bound repository collection parameters follow a different EclipseLink path; see the [SQL membership audit](https://github.com/webjetcms/webjetcms/blob/e52f75862fd5ee2b0014e4a701df098135235c28/docs/en/developer/backend/sql-in-condition-audit.md#orm-findings-criteria-literals-differ-from-bound-collection-parameters) before changing those queries.
 
 ## Security, translation and serialization
 

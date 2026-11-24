@@ -101,7 +101,7 @@ To remove the integration, use `npx skills remove` for the selected WebJET skill
 
 ## Skill catalog
 
-The following catalog and example prompts come from the English [WebJET usage guide](https://github.com/webjetcms/webjetcms/blob/26784403fccbe870783ec4577fdd0d8933c4b4a3/docs/en/developer/guidelines/ai-skills.md#webjet-skills-overview). Copy a prompt into your agent's chat and replace the bracketed placeholders. Skill names link to their full instructions and prerequisites. Only skills included in this distribution are listed.
+The following catalog and example prompts come from the English [WebJET usage guide](https://github.com/webjetcms/webjetcms/blob/e52f75862fd5ee2b0014e4a701df098135235c28/docs/en/developer/guidelines/ai-skills.md#webjet-skills-overview). Copy a prompt into your agent's chat and replace the bracketed placeholders. Skill names link to their full instructions and prerequisites. Only skills included in this distribution are listed.
 
 <!-- webjet-skills-catalog:start -->
 | Skill | What is it for and when to use it? | Example of entry into the chat |
@@ -126,6 +126,7 @@ The following catalog and example prompts come from the English [WebJET usage gu
 | [`wj-gh-issue-from-grill`](skills/wj-gh-issue-from-grill/SKILL.md) | It transfers the agreed conclusions of the discussion into an existing issue, including criteria, plan, and tests. It does not create a new issue or start implementation. | Use the skill wj-gh-issue-from-grill for issue [URL] and incorporate the agreed conclusions of this chat. |
 | [`wj-page-builder`](skills/wj-page-builder/SKILL.md) | Creates and edits PageBuilder HTML blocks, including nesting, editable areas, columns, and duplicatable elements. | Use the wj-page-builder skill to create a reference block with three columns and duplicable items. |
 | [`wj-project-context`](skills/wj-project-context/SKILL.md) | It loads the WebJET CMS architecture and conventions and verifies their applicability for a specific core version or customer project. | Use the skill wj-project-context and over to correctly read the configuration and translations in this project. |
+| [`wj-qa-browser`](skills/wj-qa-browser/SKILL.md) | It verifies changes in a running WebJET CMS via a browser. It tests main, alternative and error scenarios and describes reproducible errors and inconsistencies with the documentation. | Use the wj-qa-browser skill to verify changes from PR [link] in the [URL] environment. |
 | [`wj-sales-features`](skills/wj-sales-features/SKILL.md) | Prepares a Slovak business description of functions from the PR, branch or annexes: benefits, advantages and value for the customer. | Use the wj-sales-features skill for PR [URL] and describe the benefits for the customer. |
 | [`wj-setup`](skills/wj-setup/SKILL.md) | Once installed, WebJET skills will connect to project guidelines for Codex, GitHub Copilot, and Claude Code. It will retain your own project rules. | Use the wj-setup skill to link the installed WebJET skills to this project. |
 | [`wj-simplify-implementation`](skills/wj-simplify-implementation/SKILL.md) | It simplifies implementation in PR or local changes and removes unnecessary complexity while preserving behavior. | Use the wj-simplify-implementation skill for uncommitted changes to this feature. |

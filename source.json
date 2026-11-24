@@ -1,7 +1,7 @@
 {
   "sourceRepository": "https://github.com/webjetcms/webjetcms",
-  "sourceCommit": "26784403fccbe870783ec4577fdd0d8933c4b4a3",
-  "contentHash": "f69ff2cc1f7e696c3febf139a92e1c3498d49cf3584b42fe0f061e8d986e999d",
+  "sourceCommit": "e52f75862fd5ee2b0014e4a701df098135235c28",
+  "contentHash": "cf739d24361584143aec858454d019aa83bd53ae5663de1749bdb30703af9bf6",
   "skills": [
     "wj-accessibility",
     "wj-add-javadoc",
@@ -23,6 +23,7 @@
     "wj-gh-issue-from-grill",
     "wj-page-builder",
     "wj-project-context",
+    "wj-qa-browser",
     "wj-sales-features",
     "wj-setup",
     "wj-simplify-implementation",

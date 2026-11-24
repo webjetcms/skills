@@ -32,7 +32,7 @@ Paths are relative to the core repository root. API availability and behavior mu
 ## SQL Membership Lists
 
 - Build dynamic ID predicates with `DB.getInCondition` / `getNotInCondition` (CSV, numeric collection, or `int[]`); use the collection-plus-parameters overload for bound values. Keep existing permission/domain filtering before these calls.
-- Read [SQL membership contracts and migration inventory](https://github.com/webjetcms/webjetcms/blob/26784403fccbe870783ec4577fdd0d8933c4b4a3/docs/en/developer/backend/sql-in-condition-audit.md#implemented-interface-and-shared-implementation) when changing an IN/NOT IN query, especially empty-list handling or JDBC binding. The helpers split predicates while preserving a single query.
+- Read [SQL membership contracts and migration inventory](https://github.com/webjetcms/webjetcms/blob/e52f75862fd5ee2b0014e4a701df098135235c28/docs/en/developer/backend/sql-in-condition-audit.md#implemented-interface-and-shared-implementation) when changing an IN/NOT IN query, especially empty-list handling or JDBC binding. The helpers split predicates while preserving a single query.
 
 ## JSON, Escaping and HTML Sanitization
 
