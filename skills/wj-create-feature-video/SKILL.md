@@ -14,7 +14,7 @@ Before creating executable scenarios, inspect the target project's video npm scr
 Read [references/production-reference.md](references/production-reference.md)
 before implementing or changing a video scenario. It contains the exact schema,
 scenario template, recording defaults and validation commands. Use
-[308-pb-redesign.js](https://github.com/webjetcms/webjetcms/blob/e52f75862fd5ee2b0014e4a701df098135235c28/src/test/webapp/video/308-pb-redesign.js) as the
+[308-pb-redesign.js](https://github.com/webjetcms/webjetcms/blob/d12cb7646f722717e4b52834ddeca1395c41c62c/src/test/webapp/video/308-pb-redesign.js) as the
 working example of the current architecture; adapt its application-specific
 selectors, fixture and lifecycle callbacks to the feature being demonstrated.
 
@@ -395,8 +395,11 @@ than doing every click immediately and holding only the final screen.
 When a finished edit or retiming is requested, use the installed Tesseract video
 skill and read [references/tesseract-editing.md](references/tesseract-editing.md).
 Keep the approved narration as the timing anchor, preserve continuous topic
-flows, and use purposeful zooms on the controls being explained. Omit numbered
-chapter-title overlays unless explicitly requested.
+flows, and show the full recorded interface by default. Briefly zoom in only
+while text is being entered or the narrator is identifying a specific icon or
+region. Return to the full interface as soon as that cue ends. Show every
+window change at full frame so the viewer can see which window opened. Omit
+numbered chapter-title overlays unless explicitly requested.
 
 Include the opening AI disclosure in every finished video, following the
 wording, placement, timing and readability checks in the reference's

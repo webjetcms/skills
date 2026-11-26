@@ -101,7 +101,7 @@ To remove the integration, use `npx skills remove` for the selected WebJET skill
 
 ## Skill catalog
 
-The following catalog and example prompts come from the English [WebJET usage guide](https://github.com/webjetcms/webjetcms/blob/e52f75862fd5ee2b0014e4a701df098135235c28/docs/en/developer/guidelines/ai-skills.md#webjet-skills-overview). Copy a prompt into your agent's chat and replace the bracketed placeholders. Skill names link to their full instructions and prerequisites. Only skills included in this distribution are listed.
+The following catalog and example prompts come from the English [WebJET usage guide](https://github.com/webjetcms/webjetcms/blob/d12cb7646f722717e4b52834ddeca1395c41c62c/docs/en/developer/guidelines/ai-skills.md#webjet-skills-overview). Copy a prompt into your agent's chat and replace the bracketed placeholders. Skill names link to their full instructions and prerequisites. Only skills included in this distribution are listed.
 
 <!-- webjet-skills-catalog:start -->
 | Skill | What is it for and when to use it? | Example of entry into the chat |
