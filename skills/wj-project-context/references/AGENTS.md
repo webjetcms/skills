@@ -13,7 +13,7 @@ Start here, then read the topic relevant to the task. These references describe 
 
 ## Runtime and build stack
 
-The source of truth is [build.gradle](https://github.com/webjetcms/webjetcms/blob/d12cb7646f722717e4b52834ddeca1395c41c62c/build.gradle), the [Gradle wrapper](https://github.com/webjetcms/webjetcms/blob/d12cb7646f722717e4b52834ddeca1395c41c62c/gradle/wrapper/gradle-wrapper.properties), the [admin package manifest](https://github.com/webjetcms/webjetcms/blob/d12cb7646f722717e4b52834ddeca1395c41c62c/src/main/webapp/admin/v9/package.json) and the [browser-test manifest](https://github.com/webjetcms/webjetcms/blob/d12cb7646f722717e4b52834ddeca1395c41c62c/src/test/webapp/package.json). Version ranges such as `7.0.+` are declarations, not resolved patch versions.
+The source of truth is [build.gradle](https://github.com/webjetcms/webjetcms/blob/a6e55e9cd5a2cd863872b6eaf1b4a55961aa2e45/build.gradle), the [Gradle wrapper](https://github.com/webjetcms/webjetcms/blob/a6e55e9cd5a2cd863872b6eaf1b4a55961aa2e45/gradle/wrapper/gradle-wrapper.properties), the [admin package manifest](https://github.com/webjetcms/webjetcms/blob/a6e55e9cd5a2cd863872b6eaf1b4a55961aa2e45/src/main/webapp/admin/v9/package.json) and the [browser-test manifest](https://github.com/webjetcms/webjetcms/blob/a6e55e9cd5a2cd863872b6eaf1b4a55961aa2e45/src/test/webapp/package.json). Version ranges such as `7.0.+` are declarations, not resolved patch versions.
 
 | Area | Current core configuration |
 | --- | --- |
